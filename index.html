@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saúde Hospitalar - Soluções e Cuidados</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container">
+            <h1>Saúde Hospitalar</h1>
+            <nav>
+                <ul>
+                    <li><a href="#intro">Introdução</a></li>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#consultation">Agende uma Consulta</a></li>
+                    <li><a href="#prevention">Prevenção</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Seção: Introdução -->
+    <section id="intro" class="section">
+        <div class="container">
+            <h2>Introdução</h2>
+            <p>Bem-vindo ao nosso site! Aqui, buscamos fornecer informações valiosas sobre como melhorar a saúde hospitalar e otimizar os cuidados com os pacientes. Nosso objetivo é apoiar a gestão hospitalar, melhorar a experiência dos pacientes e reduzir os desafios enfrentados pelos hospitais.</p>
+        </div>
+    </section>
+
+    <!-- Seção: Serviços -->
+    <section id="services" class="section">
+        <div class="container">
+            <h2>Serviços de Saúde Hospitalar</h2>
+            <p>Oferecemos uma gama de soluções para melhorar a gestão de saúde nos hospitais:</p>
+            <ul>
+                <li><strong>Consultas Online:</strong> Agendamento de consultas médicas com profissionais qualificados.</li>
+                <li><strong>Gestão de Leitos:</strong> Otimização da ocupação de leitos hospitalares.</li>
+                <li><strong>Monitoramento de Pacientes:</strong> Ferramentas para monitoramento remoto de pacientes internados.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Seção: Agendamento de Consulta -->
+    <section id="consultation" class="section">
+        <div class="container">
+            <h2>Agende sua Consulta</h2>
+            <form id="appointment-form">
+                <label for="name">Nome Completo</label>
+                <input type="text" id="name" name="name" placeholder="Digite seu nome" required>
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+
+                <label for="date">Data da Consulta</label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="doctor">Escolha o Médico</label>
+                <select id="doctor" name="doctor" required>
+                    <option value="dr_Robson">Dr. Robson Silva - Cardiologista</option>
+                    <option value="dr_Joao">Dr. João Santos - Neurologista</option>
+                    <option value="dr_Diogo">Dr. Diogo Pereira  - Pediatra</option>
+                    <option value="dra_Valentina">Dra. Valentina - Ortopedista</option>
+                </select>
+
+                <button type="submit">Agendar Consulta</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Seção: Dicas de Prevenção -->
+    <section id="prevention" class="section">
+        <div class="container">
+            <h2>Dicas de Prevenção e Cuidados</h2>
+            <ul>
+                <li><strong>Mantenha uma alimentação saudável:</strong> Inclua mais frutas e vegetais em sua dieta para fortalecer o sistema imunológico.</li>
+                <li><strong>Pratique exercícios físicos:</strong> A atividade física regular pode reduzir o risco de várias doenças.</li>
+                <li><strong>Evite o estresse:</strong> Encontre métodos para relaxar e descansar adequadamente, como meditação e respiração profunda.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Seção: Contato -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <p>Tem alguma dúvida ou precisa de mais informações? Entre em contato com nossa equipe!</p>
+            <form id="contact-form">
+                <label for="contact-name">Nome</label>
+                <input type="text" id="contact-name" name="contact-name" placeholder="Seu nome" required>
+
+                <label for="contact-email">E-mail</label>
+                <input type="email" id="contact-email" name="contact-email" placeholder="Seu e-mail" required>
+
+                <label for="message">Mensagem</label>
+                <textarea id="message" name="message" placeholder="Escreva sua mensagem" required></textarea>
+
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Saúde Hospitalar - Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
